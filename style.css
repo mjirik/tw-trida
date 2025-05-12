@@ -7,6 +7,7 @@
     background-color: #c91313;
 }
 
+
 /*
 .flex-kontejner {
     display: flex; 
@@ -88,4 +89,18 @@
     background-color: #fffd69;
     padding: 10px;;
     min-width: 300px;
+}
+
+
+.karta:hover {
+    background-color: #69ff82;
+}
+
+
+.karta:first-child {
+    background-color: #ff69f3;
+}
+
+.karta:nth-child(2n) {
+    background-color: #69f3ff;
 }
