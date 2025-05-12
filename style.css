@@ -1,0 +1,91 @@
+
+.headline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c91313;
+}
+
+/*
+.flex-kontejner {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+*/
+
+
+
+    /* max-width: 1500px; */
+
+
+    /* flex-wrap umožňuje zalamování položek, když se nevejdou do jednoho řádku */
+    /* flex-wrap: wrap; Zkuste zakomentovat nebo změnit na nowrap */
+
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 300vh;  */
+    /* flex-direction: row; Zkuste změnit na column */
+      
+    /* justify-content řídí zarovnání položek podél hlavní osy:
+       flex-start, flex-end, center, space-between, space-around, space-evenly */
+    /* justify-content: space-evenly; Vyzkoušejte i další hodnoty */
+    
+    /* align-items řídí zarovnání podél křížové osy:
+       flex-start, flex-end, center, stretch, baseline */
+    /* align-items: flex-start; Vyzkoušejte např. flex-start nebo stretch */
+    
+    
+    
+
+/*
+.karta {
+    
+    width: 440px;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #c91313;
+    border-radius: 10px;
+   
+}*/
+
+.obrazkova-karta {
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.obrazek {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    flex:1;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Standardní styl */
+.flex-kontejner {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    /*flex-wrap: wrap;  
+    width: 100%; */
+}
+
+.karta {
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fffd69;
+    padding: 10px;;
+    min-width: 300px;
+}
